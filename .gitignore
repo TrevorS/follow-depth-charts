@@ -21,6 +21,7 @@ tags
 
 # ignore the teams list
 teams.txt
+test-teams.txt
 
 # ignore vim swap files
 *.swp
