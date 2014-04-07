@@ -76,7 +76,7 @@ module FollowDepthCharts
         'http://a.espncdn.com/i/teamlogos/mlb/35/sea.gif' => 'Seattle Mariners',
         'http://a.espncdn.com/i/teamlogos/mlb/35/tam.gif' => 'Tampa Bay Rays',
         'http://a.espncdn.com/i/teamlogos/mlb/35/tex.gif' => 'Texas Rangers',
-        'http://a.espncdn.com/i/teamlogos/mlb/35/tor.gif' => 'Torono Blue Jays',
+        'http://a.espncdn.com/i/teamlogos/mlb/35/tor.gif' => 'Toronto Blue Jays',
         'http://a.espncdn.com/i/teamlogos/mlb/35/was.gif' => 'Washington Nationals'
       }
     end
