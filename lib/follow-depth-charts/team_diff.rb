@@ -1,6 +1,5 @@
 module FollowDepthCharts
-  class TeamDiff
-
+  module TeamDiff
     def self.diff(old, new)
       if old.name != new.name
         return nil
