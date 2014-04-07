@@ -1,8 +1,7 @@
 # FollowDepthCharts
 
-Follows:
+TODO:
 
-- [x] ESPN's MLB closer depth chart
-- [ ] CBS Sports MLB closer depth chart
-
-FollowDepthCharts notifies you when changes are detected.
+- Follow ESPN's MLB closer depth chart ✓
+- Follow CBS Sports MLB closer depth chart
+- Notifies you when changes are detected.
