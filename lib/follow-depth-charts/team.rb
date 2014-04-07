@@ -8,5 +8,8 @@ module FollowDepthCharts
       @name = name
     end
 
+    def to_a
+      [name, closer, self.next, stealth, looming]
+    end
   end
 end

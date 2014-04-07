@@ -12,6 +12,7 @@ module FollowDepthCharts
         team = make_team(row)
         teams << team
       end
+      teams
     end
 
     private

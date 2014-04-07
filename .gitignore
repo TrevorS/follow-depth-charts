@@ -15,3 +15,12 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+
+# ignore ctags
+tags
+
+# ignore the teams list
+teams.txt
+
+# ignore vim swap files
+*.swp
