@@ -3,7 +3,7 @@ require 'fileutils'
 include FollowDepthCharts
 
 describe TeamSaver do
-  test_filename = 'test-teams.txt'
+  test_filename = 'test-teams.csv'
 
   team = Team.new('Team Actors')
   team.closer = 'Steve Martin'
