@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require 'follow-depth-charts'
+token = ''
+bot_id = ''
+espn_url = 'http://sports.espn.go.com/fantasy/baseball/flb/story?page=REcloserorgchart'
+teams_file = 'working-teams.csv'
+FollowDepthCharts::Runner.new(token, bot_id, espn_url, teams_file)
