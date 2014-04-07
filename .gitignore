@@ -20,8 +20,11 @@ tmp
 tags
 
 # ignore the teams list
-teams.txt
-test-teams.txt
+test-teams.csv
+working-teams.csv
 
 # ignore vim swap files
 *.swp
+
+# ignore the secrets directory
+secrets/
