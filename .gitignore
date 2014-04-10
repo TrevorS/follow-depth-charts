@@ -26,5 +26,5 @@ working-teams.csv
 # ignore vim swap files
 *.swp
 
-# ignore the secrets directory
-secrets/
+# ignore secrets
+secrets.yml

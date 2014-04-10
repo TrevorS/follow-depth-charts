@@ -5,5 +5,7 @@ require 'follow-depth-charts'
 token = ''
 bot_id = ''
 espn_url = 'http://sports.espn.go.com/fantasy/baseball/flb/story?page=REcloserorgchart'
+secrets_file 'secrets.txt'
 teams_file = 'working-teams.csv'
+secrets = FollowDepthCharts::SecretsLoader.load(secrets_file)
 FollowDepthCharts::Runner.new(token, bot_id, espn_url, teams_file)
