@@ -28,3 +28,6 @@ working-teams.csv
 
 # ignore secrets
 secrets.yml
+
+# ignore the log
+fdc.log
