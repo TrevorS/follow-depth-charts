@@ -13,7 +13,9 @@ module FollowDepthCharts
 
     private
     def format_message(team_name, diff, depth_chart_name)
-      message = "DepthChart change from: #{depth_chart_name}.\n"
+      message =  "FolowDepthCharts version: #{VERSION}\n"
+      message += "Timestamp: #{Time.now.strftime('%m-%d-%Y %H:%M')}\n"
+      message += "DepthChart change from: #{depth_chart_name}.\n"
       message += "Team: #{team_name}\n"
       if diff[:closer]
         message += make_change('Closer', diff[:closer])
