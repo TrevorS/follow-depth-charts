@@ -2,8 +2,9 @@ require 'spec_helper'
 include FollowDepthCharts
 
 describe GroupMeSender do
-  token = 'insert token'
-  bot_id = 'insert bot_id'
+  secrets_file = 'secrets.yml'
+  token, bot_id,
+    _, _ = SecretsLoader.load(secrets_file).values
 
   context 'when authenticating' do
     sender = GroupMeSender.new(token, bot_id)
