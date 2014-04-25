@@ -1,11 +1,17 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
-
 require 'follow-depth-charts'
-token = ''
-bot_id = ''
-espn_url = 'http://sports.espn.go.com/fantasy/baseball/flb/story?page=REcloserorgchart'
-secrets_file 'secrets.txt'
-teams_file = 'working-teams.csv'
-secrets = FollowDepthCharts::SecretsLoader.load(secrets_file)
-FollowDepthCharts::Runner.new(token, bot_id, espn_url, teams_file)
+include FollowDepthCharts
+
+secrets_file = 'secrets.yml'
+token, bot_id,
+  espn_url, teams_file = SecretsLoader.load(secrets_file).values
+
+puts "follow-depth-charts version: #{VERSION}"
+puts
+puts "     token: #{token}"
+puts "    bot_id: #{bot_id}"
+puts "  espn_url: #{espn_url}"
+puts "teams_file: #{teams_file}"
+
+Runner.new(token, bot_id, espn_url, teams_file)

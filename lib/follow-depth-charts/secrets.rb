@@ -1,8 +1,8 @@
 require 'yaml'
 module FollowDepthCharts
   module SecretsLoader
-    def load(file)
-      YAML.load(file)
+    def self.load(file)
+      YAML.load_file(file)
     end
   end
 end
