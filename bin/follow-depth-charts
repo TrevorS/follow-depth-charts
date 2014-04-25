@@ -13,5 +13,8 @@ puts "     token: #{token}"
 puts "    bot_id: #{bot_id}"
 puts "  espn_url: #{espn_url}"
 puts "teams_file: #{teams_file}"
+puts " timestamp: #{Time.now}"
+puts
+puts
 
 Runner.new(token, bot_id, espn_url, teams_file)
